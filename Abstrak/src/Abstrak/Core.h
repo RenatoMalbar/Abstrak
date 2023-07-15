@@ -9,3 +9,6 @@
 #else
 	#error Abtrak only supports Windows
 #endif // ABK_PLATFORM_WINDOWS
+
+
+#define BIT(x) (1 << x)

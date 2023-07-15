@@ -6,9 +6,8 @@ extern Abtk::App* Abtk::CreateApp();
 
 int main(int argc, char** argv)
 {	
-
 	Abtk::Log::Init();
-	ABTK_CORE_FATAL("Log Initialized");
+	ABTK_CORE_TRACE("Log Initialized");
 	ABTK_CLIENT_TRACE("Log Initialized");
 
 	auto app = Abtk::CreateApp();
